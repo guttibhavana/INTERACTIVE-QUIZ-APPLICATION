@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 20px;
+}
+
+/* Quiz Container */
+.quiz-container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism Effect */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    backdrop-filter: blur(10px);
+}
+
+/* Title */
+h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #f9f9f9;
+}
+
+/* Question */
+#question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Answer Buttons */
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Answer Buttons - Default */
+.answer-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid white;
+}
+
+/* Hover Effect */
+.answer-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Correct & Wrong Answer Styles */
+.correct {
+    background: #27ae60 !important;
+    color: white;
+}
+
+.wrong {
+    background: #e74c3c !important;
+    color: white;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#prev-btn, #next-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#prev-btn:hover, #next-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Hide Elements */
+.hide {
+    display: none;
+}
+
+/* Score Display */
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f1c40f;
+}
