@@ -62,3 +62,9 @@ User Authentication: Enable login/signup functionality to save quiz progress and
 
 The Quiz Application is a powerful and versatile tool that enhances learning, training, and engagement across multiple domains. By integrating dynamic question loading, real-time feedback, smooth navigation, and an intuitive UI, this project serves as an effective platform for knowledge assessment.
 Whether used in education, corporate training, entertainment, or competitive exam preparation, this quiz application proves to be a valuable self-learning tool. With additional features like timers, leaderboards, and user authentication, it can be further enhanced to meet specific user needs.
+
+OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/2b3315c1-af0b-4912-b222-96070d692641)
+![Image](https://github.com/user-attachments/assets/c106f4e6-963e-449b-aef0-4e60a959e130)
+![Image](https://github.com/user-attachments/assets/6e821a02-e830-44bf-a566-bf80fef455e4)
